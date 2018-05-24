@@ -1,1 +1,2 @@
 Agrometeor spatialization methodology
+[source](./Agromet_Spatialization_a_methodological_approach_to_asses_the_best_spatialization_technique.Rmd)
