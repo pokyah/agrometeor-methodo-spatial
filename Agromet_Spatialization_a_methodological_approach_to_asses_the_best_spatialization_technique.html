@@ -492,6 +492,7 @@ The project aims to set up an operational web-platform designed for real-time ag
 <blockquote>
 <p>Supervised learning is where you have input variables (x) and an output variable (Y) and you use an algorithm to learn the mapping function from the input to the output : <code>Y = f(X)</code><br> The goal is to approximate the mapping function so well that when you have new input data (x), you can predict the output variables (Y) for that data.<br> It is called supervised learning because the process of an algorithm learning from the training dataset can be thought of as a teacher supervising the learning process</p>
 </blockquote>
+<p>Also check this worth reading <a href="https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471">post</a></p>
 </section></section>
 <section><section id="defining-the-best-supervised-machine-learning-regression-method" class="titleslide slide level1"><h1>3. Defining the best supervised machine learning regression method</h1></section><section id="our-general-approach" class="slide level2">
 <h2>3.1. Our general approach</h2>
@@ -512,7 +513,7 @@ The project aims to set up an operational web-platform designed for real-time ag
 </section><section class="slide level2">
 
 <ol start="5" type="1">
-<li class="fragment">Then <strong>aggregate, by calculating the mean</strong>, all the hourly performance measures on the whole representative subset to choose the method =(regression learning algorithm + regression task) that globally performs the best</li>
+<li class="fragment">Then <strong>aggregate, by calculating the mean</strong>, all the hourly performance measures on the whole representative subset to choose the method (= regression learning algorithm + regression task) that globally performs the best</li>
 <li class="fragment">For each desired hourly dataset, apply the choosen method to <strong>build a model</strong> to make spatial predictions</li>
 <li class="fragment"><strong>Use maps</strong> to <a href="http://spatial-analyst.net/wiki/index.php/Uncertainty_visualization#Visualization_of_uncertainty_using_whitening_in_R">vizualize the predictions and their uncertainty</a></li>
 <li class="fragment">Make the predictions available on the platform together with its uncertainty indicator</li>

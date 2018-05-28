@@ -85,6 +85,8 @@ From [machinelearningmastery.com](https://machinelearningmastery.com/supervised-
 The goal is to approximate the mapping function so well that when you have new input data (x), you can predict the output variables (Y) for that data.<br>
 It is called supervised learning because the process of an algorithm learning from the training dataset can be thought of as a teacher supervising the learning process
 
+Also check this worth reading [post](https://medium.com/@ageitgey/machine-learning-is-fun-80ea3ec3c471)
+
 # 3. Defining the best supervised machine learning regression method
 
 ## 3.1. Our general approach
@@ -106,7 +108,7 @@ It is called supervised learning because the process of an algorithm learning fr
 
 ---- 
 
-5. Then __aggregate, by calculating the mean__, all the hourly performance measures on the whole representative subset to choose the method =(regression learning algorithm + regression task) that globally performs the best
+5. Then __aggregate, by calculating the mean__, all the hourly performance measures on the whole representative subset to choose the method (= regression learning algorithm + regression task) that globally performs the best
 6. For each desired hourly dataset, apply the choosen method to __build a model__ to make spatial predictions
 7. __Use maps__ to [vizualize the predictions and their uncertainty](http://spatial-analyst.net/wiki/index.php/Uncertainty_visualization#Visualization_of_uncertainty_using_whitening_in_R)
 8. Make the predictions available on the platform together with its uncertainty indicator  
