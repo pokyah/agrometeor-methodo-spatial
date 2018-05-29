@@ -104,7 +104,7 @@ Also check this worth reading [post](https://medium.com/@ageitgey/machine-learni
 1. From our __historical dataset__ of hourly weather records ([Pameseb db](https://app.pameseb.be)) 
 2. filter a representative subset of records (e.g. __5 years of continuous hourly records__) + select the "good" stations
 3. For __each hourly set of records__ (30 stations - or more ([by integrating IRM  network](https://pokyah.github.io/AWS-Humain-comparison/reporting/Humain-presentation-revealjs.html#/)? )
-4. run a __benchmark experiment__ where __different desired regression learning algorithms__ are applied to various regression tasks (i.e. datasets with different combinations of explanatory variables + the target weather parameter) with the aim to compare and rank the combinations of algorithm + used explanatory variables using a [cross validation resampling strategy](https://www.researchgate.net/publication/226334863_Resampling_Strategies_for_Model_Assessment_and_Selection) (LOOCV) that provides the desired performance measures (e.g. RMSE)
+4. run a __benchmark experiment__ where __different desired regression learning algorithms__ are applied to various regression tasks (i.e. datasets with different combinations of explanatory variables + the target weather parameter) with the aim to compare and rank the combinations of algorithm + used explanatory variables using a [cross validation resampling strategy](https://www.researchgate.net/publication/226334863_Resampling_Strategies_for_Model_Assessment_and_Selection) (LOOCV) that provides the desired [performance metrics](https://medium.com/human-in-a-machine-world/mae-and-rmse-which-metric-is-better-e60ac3bde13d) (e.g. RMSE, MAE)
 
 ---- 
 

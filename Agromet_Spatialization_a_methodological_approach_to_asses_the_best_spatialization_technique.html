@@ -452,7 +452,7 @@ document.getElementsByTagName('head')[0].appendChild(style);
 <section>
     <h1 class="title">Agromet Spatialization : a methodological approach to asses the ‘<em>best</em>’ spatialization technique</h1>
     <h2 class="author"><a href="mailto:t.goossens@cra.wallonie.be">t.goossens@cra.wallonie.be</a></h2>
-    <h3 class="date">28 May, 2018</h3>
+    <h3 class="date">29 May, 2018</h3>
 </section>
 
 <section><section id="context-objectives" class="titleslide slide level1"><h1>1. Context &amp; objectives</h1></section><section id="context" class="slide level2">
@@ -508,7 +508,7 @@ The project aims to set up an operational web-platform designed for real-time ag
 <li class="fragment">From our <strong>historical dataset</strong> of hourly weather records (<a href="https://app.pameseb.be">Pameseb db</a>)</li>
 <li class="fragment">filter a representative subset of records (e.g. <strong>5 years of continuous hourly records</strong>) + select the “good” stations</li>
 <li class="fragment">For <strong>each hourly set of records</strong> (30 stations - or more (<a href="https://pokyah.github.io/AWS-Humain-comparison/reporting/Humain-presentation-revealjs.html#/">by integrating IRM network</a>? )</li>
-<li class="fragment">run a <strong>benchmark experiment</strong> where <strong>different desired regression learning algorithms</strong> are applied to various regression tasks (i.e. datasets with different combinations of explanatory variables + the target weather parameter) with the aim to compare and rank the combinations of algorithm + used explanatory variables using a <a href="https://www.researchgate.net/publication/226334863_Resampling_Strategies_for_Model_Assessment_and_Selection">cross validation resampling strategy</a> (LOOCV) that provides the desired performance measures (e.g. RMSE)</li>
+<li class="fragment">run a <strong>benchmark experiment</strong> where <strong>different desired regression learning algorithms</strong> are applied to various regression tasks (i.e. datasets with different combinations of explanatory variables + the target weather parameter) with the aim to compare and rank the combinations of algorithm + used explanatory variables using a <a href="https://www.researchgate.net/publication/226334863_Resampling_Strategies_for_Model_Assessment_and_Selection">cross validation resampling strategy</a> (LOOCV) that provides the desired <a href="https://medium.com/human-in-a-machine-world/mae-and-rmse-which-metric-is-better-e60ac3bde13d">performance metrics</a> (e.g. RMSE, MAE)</li>
 </ol>
 </section><section class="slide level2">
 
