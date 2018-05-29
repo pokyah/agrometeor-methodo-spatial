@@ -147,7 +147,7 @@ In addition to the famous [tidyverse](https://www.tidyverse.org/) packages suite
 
 ## 4.1. Conclusion
 
-* Thanks to exchanges with our partners (you and KNMI + ZEPP + Arvalis) and an extensive review (both in terms of spatial prediction theory and R-coding), 
+* Thanks to exchanges with our partners (Steering Committee and KNMI + ZEPP + Arvalis) and an extensive review (both in terms of spatial prediction theory and R-coding), 
 * we have figured out how to setup & code an R-facility to find the best suited interpolation method for each of our weather params
 
 ## 4.2. Perspectives
