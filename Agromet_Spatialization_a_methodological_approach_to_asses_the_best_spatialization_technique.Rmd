@@ -136,12 +136,12 @@ Also check this worth reading [post](https://medium.com/@ageitgey/machine-learni
 
 ## 3.6. Which R config and packages ? 
 
-In order to ensure science reproductibility ([why it is important](https://www.sevenbridges.com/docker-based-solutions-to-reproducibility-in-science/)), the code is developed in a self-maintained and publicly available [Docker image](https://github.com/pokyah/agrometeorDocker)  
+In order to ensure science reproductibility ([why it is important](https://www.sevenbridges.com/docker-based-solutions-to-reproducibility-in-science/)), the code ([R](https://medium.com/activewizards-machine-learning-company/top-20-r-libraries-for-data-science-in-2018-infographic-956f8419f883)) is developed in a self-maintained and publicly available [Docker image](https://github.com/pokyah/agrometeorDocker)  
 
 In addition to the famous [tidyverse](https://www.tidyverse.org/) packages suite, we use bleeding edge R packages :
 
 * from sp to the new [sf](https://edzer.github.io/UseR2017/) (perfect integration with dplyr verbs and with the OGC [simple feature](https://en.wikipedia.org/wiki/Simple_Features) standard) for spatial data handling
-* [mlr](https://mlr-org.github.io) : an umbrella-package providing a unified interface to dozens of learning algorithms 
+* [mlr](https://mlr-org.github.io) : an umbrella-package providing a unified interface to dozens of learning algorithms
 
 # 4. Conclusion and perspectives
 
