@@ -4,24 +4,6 @@ author: "t.goossens@cra.wallonie.be"
 date: "`r format(Sys.time(), '%d %B, %Y')`"
 always_allow_html: yes
 output:
-  html_document:
-    theme: default
-    toc: yes
-    toc_depth: 6
-    toc_float:
-      collapsed: yes
-      smooth_scroll: yes
-  md_document:
-    toc: no
-    toc_depth: 6
-    variant: markdown_github
-  word_document:
-    toc: no
-    toc_depth: '6'
-  odt_document:
-    fig_height: 5
-    fig_width: 7
-  pdf_document: default
   revealjs::revealjs_presentation:
     css:
       - "~/Documents/code/agrometeor/agrometeor-reveal-template/theme/craw.css"
@@ -35,6 +17,24 @@ output:
     fig_caption: false
     reveal_options:
       previewLinks: false
+  md_document:
+    toc: no
+    toc_depth: 6
+    variant: markdown_github
+  word_document:
+    toc: no
+    toc_depth: '6'
+  odt_document:
+    fig_height: 5
+    fig_width: 7
+  pdf_document: default
+  html_document:
+    theme: default
+    toc: yes
+    toc_depth: 6
+    toc_float:
+      collapsed: yes
+      smooth_scroll: yes
 ---
 
 # 1. Context & objectives   
@@ -160,7 +160,7 @@ In addition to the famous [tidyverse](https://www.tidyverse.org/) packages suite
 
 ## 5.1. Colofon
 * This document was generated using R software with the [knitr library](https://deanattali.com/2015/03/24/knitrs-best-hidden-gem-spin/) 
-* The source code of the document is availbale on [github](https://github.com/pokyah/agrometeor-spatial-methodology)
+* The source code of the document is availbale on [github](https://pokyah.github.io/agrometeor-methodo-spatial)
 
 
 ## Terms of service 
